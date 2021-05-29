@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Joris\Documents\C++
+CMAKE_SOURCE_DIR = C:\Users\miist\Documents\C\C++
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Joris\Documents\C++\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\miist\Documents\C\C++\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = C:\Users\Joris\Documents\C++\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Joris\Documents\C++\cmake-build-debug\CMakeFiles C:\Users\Joris\Documents\C++\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\miist\Documents\C\C++\cmake-build-debug\CMakeFiles C:\Users\miist\Documents\C\C++\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Joris\Documents\C++\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\miist\Documents\C\C++\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,32 +141,32 @@ C__/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/build
 .PHONY : C__/fast
 
-main.obj: main.cpp.obj
+Ancien_exo/main.obj: Ancien_exo/main.cpp.obj
 
-.PHONY : main.obj
+.PHONY : Ancien_exo/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+Ancien_exo/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/main.cpp.obj
+.PHONY : Ancien_exo/main.cpp.obj
 
-main.i: main.cpp.i
+Ancien_exo/main.i: Ancien_exo/main.cpp.i
 
-.PHONY : main.i
+.PHONY : Ancien_exo/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/main.cpp.i
-.PHONY : main.cpp.i
+Ancien_exo/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/main.cpp.i
+.PHONY : Ancien_exo/main.cpp.i
 
-main.s: main.cpp.s
+Ancien_exo/main.s: Ancien_exo/main.cpp.s
 
-.PHONY : main.s
+.PHONY : Ancien_exo/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/main.cpp.s
-.PHONY : main.cpp.s
+Ancien_exo/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/main.cpp.s
+.PHONY : Ancien_exo/main.cpp.s
 
 test-polymorphic.obj: test-polymorphic.cpp.obj
 
@@ -204,9 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C__
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... Ancien_exo/main.obj
+	@echo ... Ancien_exo/main.i
+	@echo ... Ancien_exo/main.s
 	@echo ... test-polymorphic.obj
 	@echo ... test-polymorphic.i
 	@echo ... test-polymorphic.s
