@@ -57,19 +57,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\miist\Documents\C
+CMAKE_SOURCE_DIR = C:\Users\Joris\Documents\C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\miist\Documents\C\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Joris\Documents\C\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = C:\Users\miist\Documents\C\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\miist\Documents\C\cmake-build-debug\CMakeFiles C:\Users\miist\Documents\C\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Joris\Documents\C\cmake-build-debug\CMakeFiles C:\Users\Joris\Documents\C\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\miist\Documents\C\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Joris\Documents\C\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -167,33 +167,6 @@ Ancien_exo/calcul.s: Ancien_exo/calcul.c.s
 Ancien_exo/calcul.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/calcul.c.s
 .PHONY : Ancien_exo/calcul.c.s
-
-Ancien_exo/contactList.obj: Ancien_exo/contactList.c.obj
-
-.PHONY : Ancien_exo/contactList.obj
-
-# target to build an object file
-Ancien_exo/contactList.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/contactList.c.obj
-.PHONY : Ancien_exo/contactList.c.obj
-
-Ancien_exo/contactList.i: Ancien_exo/contactList.c.i
-
-.PHONY : Ancien_exo/contactList.i
-
-# target to preprocess a source file
-Ancien_exo/contactList.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/contactList.c.i
-.PHONY : Ancien_exo/contactList.c.i
-
-Ancien_exo/contactList.s: Ancien_exo/contactList.c.s
-
-.PHONY : Ancien_exo/contactList.s
-
-# target to generate assembly for a file
-Ancien_exo/contactList.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/contactList.c.s
-.PHONY : Ancien_exo/contactList.c.s
 
 Ancien_exo/perimetre.obj: Ancien_exo/perimetre.c.obj
 
@@ -330,6 +303,33 @@ Ancien_exo/tp-pointeur.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/tp-pointeur.c.s
 .PHONY : Ancien_exo/tp-pointeur.c.s
 
+contactList.obj: contactList.c.obj
+
+.PHONY : contactList.obj
+
+# target to build an object file
+contactList.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/contactList.c.obj
+.PHONY : contactList.c.obj
+
+contactList.i: contactList.c.i
+
+.PHONY : contactList.i
+
+# target to preprocess a source file
+contactList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/contactList.c.i
+.PHONY : contactList.c.i
+
+contactList.s: contactList.c.s
+
+.PHONY : contactList.s
+
+# target to generate assembly for a file
+contactList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/contactList.c.s
+.PHONY : contactList.c.s
+
 createContacts.obj: createContacts.c.obj
 
 .PHONY : createContacts.obj
@@ -423,9 +423,6 @@ help:
 	@echo ... Ancien_exo/calcul.obj
 	@echo ... Ancien_exo/calcul.i
 	@echo ... Ancien_exo/calcul.s
-	@echo ... Ancien_exo/contactList.obj
-	@echo ... Ancien_exo/contactList.i
-	@echo ... Ancien_exo/contactList.s
 	@echo ... Ancien_exo/perimetre.obj
 	@echo ... Ancien_exo/perimetre.i
 	@echo ... Ancien_exo/perimetre.s
@@ -441,6 +438,9 @@ help:
 	@echo ... Ancien_exo/tp-pointeur.obj
 	@echo ... Ancien_exo/tp-pointeur.i
 	@echo ... Ancien_exo/tp-pointeur.s
+	@echo ... contactList.obj
+	@echo ... contactList.i
+	@echo ... contactList.s
 	@echo ... createContacts.obj
 	@echo ... createContacts.i
 	@echo ... createContacts.s

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/C__.dir/main.cpp.obj"
+  "CMakeFiles/C__.dir/test-polymorphic.cpp.obj"
   "C__.exe"
   "C__.exe.manifest"
   "C__.pdb"

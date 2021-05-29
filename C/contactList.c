@@ -9,7 +9,6 @@ char check(FILE *file) {
     } else{
         printf("/===========================\n");
         printf("| The file has been found\n");
-        printf("| The file is located: %s\n",__FILE__);
         printf("\\===========================\n");
     }
     return 0;
