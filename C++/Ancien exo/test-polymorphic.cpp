@@ -21,13 +21,13 @@ void affiche(A& a){
     a.show();
 }
 
-int main(){
-
-    A a;
-    B b;
-
-    affiche(a);
-    affiche(b);
-
-    return 0;
-}
+//int main(){
+//
+//    A a;
+//    B b;
+//
+//    affiche(a);
+//    affiche(b);
+//
+//    return 0;
+//}

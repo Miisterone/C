@@ -89,7 +89,40 @@
 		<Unit filename="C:/Users/miist/Documents/C/C++/Ancien exo/polygone.h">
 			<Option target="C__"/>
 		</Unit>
-		<Unit filename="C:/Users/miist/Documents/C/C++/test-polymorphic.cpp">
+		<Unit filename="C:/Users/miist/Documents/C/C++/Ancien exo/test-polymorphic.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/Aigle.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/Aigle.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/IAnimal.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/Poule.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/Poule.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/Tigre.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/Tigre.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/Zoo.cpp">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/Zoo.h">
+			<Option target="C__"/>
+		</Unit>
+		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/main.cpp">
 			<Option target="C__"/>
 		</Unit>
 		<Unit filename="C:/Users/miist/Documents/C/C++/CMakeLists.txt">

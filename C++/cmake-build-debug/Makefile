@@ -168,32 +168,194 @@ Ancien_exo/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/main.cpp.s
 .PHONY : Ancien_exo/main.cpp.s
 
-test-polymorphic.obj: test-polymorphic.cpp.obj
+Ancien_exo/test-polymorphic.obj: Ancien_exo/test-polymorphic.cpp.obj
 
-.PHONY : test-polymorphic.obj
+.PHONY : Ancien_exo/test-polymorphic.obj
 
 # target to build an object file
-test-polymorphic.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/test-polymorphic.cpp.obj
-.PHONY : test-polymorphic.cpp.obj
+Ancien_exo/test-polymorphic.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/test-polymorphic.cpp.obj
+.PHONY : Ancien_exo/test-polymorphic.cpp.obj
 
-test-polymorphic.i: test-polymorphic.cpp.i
+Ancien_exo/test-polymorphic.i: Ancien_exo/test-polymorphic.cpp.i
 
-.PHONY : test-polymorphic.i
+.PHONY : Ancien_exo/test-polymorphic.i
 
 # target to preprocess a source file
-test-polymorphic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/test-polymorphic.cpp.i
-.PHONY : test-polymorphic.cpp.i
+Ancien_exo/test-polymorphic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/test-polymorphic.cpp.i
+.PHONY : Ancien_exo/test-polymorphic.cpp.i
 
-test-polymorphic.s: test-polymorphic.cpp.s
+Ancien_exo/test-polymorphic.s: Ancien_exo/test-polymorphic.cpp.s
 
-.PHONY : test-polymorphic.s
+.PHONY : Ancien_exo/test-polymorphic.s
 
 # target to generate assembly for a file
-test-polymorphic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/test-polymorphic.cpp.s
-.PHONY : test-polymorphic.cpp.s
+Ancien_exo/test-polymorphic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Ancien_exo/test-polymorphic.cpp.s
+.PHONY : Ancien_exo/test-polymorphic.cpp.s
+
+Zoo/Aigle.obj: Zoo/Aigle.cpp.obj
+
+.PHONY : Zoo/Aigle.obj
+
+# target to build an object file
+Zoo/Aigle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Aigle.cpp.obj
+.PHONY : Zoo/Aigle.cpp.obj
+
+Zoo/Aigle.i: Zoo/Aigle.cpp.i
+
+.PHONY : Zoo/Aigle.i
+
+# target to preprocess a source file
+Zoo/Aigle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Aigle.cpp.i
+.PHONY : Zoo/Aigle.cpp.i
+
+Zoo/Aigle.s: Zoo/Aigle.cpp.s
+
+.PHONY : Zoo/Aigle.s
+
+# target to generate assembly for a file
+Zoo/Aigle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Aigle.cpp.s
+.PHONY : Zoo/Aigle.cpp.s
+
+Zoo/IAnimal.obj: Zoo/IAnimal.cpp.obj
+
+.PHONY : Zoo/IAnimal.obj
+
+# target to build an object file
+Zoo/IAnimal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/IAnimal.cpp.obj
+.PHONY : Zoo/IAnimal.cpp.obj
+
+Zoo/IAnimal.i: Zoo/IAnimal.cpp.i
+
+.PHONY : Zoo/IAnimal.i
+
+# target to preprocess a source file
+Zoo/IAnimal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/IAnimal.cpp.i
+.PHONY : Zoo/IAnimal.cpp.i
+
+Zoo/IAnimal.s: Zoo/IAnimal.cpp.s
+
+.PHONY : Zoo/IAnimal.s
+
+# target to generate assembly for a file
+Zoo/IAnimal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/IAnimal.cpp.s
+.PHONY : Zoo/IAnimal.cpp.s
+
+Zoo/Poule.obj: Zoo/Poule.cpp.obj
+
+.PHONY : Zoo/Poule.obj
+
+# target to build an object file
+Zoo/Poule.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Poule.cpp.obj
+.PHONY : Zoo/Poule.cpp.obj
+
+Zoo/Poule.i: Zoo/Poule.cpp.i
+
+.PHONY : Zoo/Poule.i
+
+# target to preprocess a source file
+Zoo/Poule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Poule.cpp.i
+.PHONY : Zoo/Poule.cpp.i
+
+Zoo/Poule.s: Zoo/Poule.cpp.s
+
+.PHONY : Zoo/Poule.s
+
+# target to generate assembly for a file
+Zoo/Poule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Poule.cpp.s
+.PHONY : Zoo/Poule.cpp.s
+
+Zoo/Tigre.obj: Zoo/Tigre.cpp.obj
+
+.PHONY : Zoo/Tigre.obj
+
+# target to build an object file
+Zoo/Tigre.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Tigre.cpp.obj
+.PHONY : Zoo/Tigre.cpp.obj
+
+Zoo/Tigre.i: Zoo/Tigre.cpp.i
+
+.PHONY : Zoo/Tigre.i
+
+# target to preprocess a source file
+Zoo/Tigre.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Tigre.cpp.i
+.PHONY : Zoo/Tigre.cpp.i
+
+Zoo/Tigre.s: Zoo/Tigre.cpp.s
+
+.PHONY : Zoo/Tigre.s
+
+# target to generate assembly for a file
+Zoo/Tigre.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Tigre.cpp.s
+.PHONY : Zoo/Tigre.cpp.s
+
+Zoo/Zoo.obj: Zoo/Zoo.cpp.obj
+
+.PHONY : Zoo/Zoo.obj
+
+# target to build an object file
+Zoo/Zoo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Zoo.cpp.obj
+.PHONY : Zoo/Zoo.cpp.obj
+
+Zoo/Zoo.i: Zoo/Zoo.cpp.i
+
+.PHONY : Zoo/Zoo.i
+
+# target to preprocess a source file
+Zoo/Zoo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Zoo.cpp.i
+.PHONY : Zoo/Zoo.cpp.i
+
+Zoo/Zoo.s: Zoo/Zoo.cpp.s
+
+.PHONY : Zoo/Zoo.s
+
+# target to generate assembly for a file
+Zoo/Zoo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Zoo.cpp.s
+.PHONY : Zoo/Zoo.cpp.s
+
+Zoo/main.obj: Zoo/main.cpp.obj
+
+.PHONY : Zoo/main.obj
+
+# target to build an object file
+Zoo/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/main.cpp.obj
+.PHONY : Zoo/main.cpp.obj
+
+Zoo/main.i: Zoo/main.cpp.i
+
+.PHONY : Zoo/main.i
+
+# target to preprocess a source file
+Zoo/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/main.cpp.i
+.PHONY : Zoo/main.cpp.i
+
+Zoo/main.s: Zoo/main.cpp.s
+
+.PHONY : Zoo/main.s
+
+# target to generate assembly for a file
+Zoo/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/main.cpp.s
+.PHONY : Zoo/main.cpp.s
 
 # Help Target
 help:
@@ -207,9 +369,27 @@ help:
 	@echo ... Ancien_exo/main.obj
 	@echo ... Ancien_exo/main.i
 	@echo ... Ancien_exo/main.s
-	@echo ... test-polymorphic.obj
-	@echo ... test-polymorphic.i
-	@echo ... test-polymorphic.s
+	@echo ... Ancien_exo/test-polymorphic.obj
+	@echo ... Ancien_exo/test-polymorphic.i
+	@echo ... Ancien_exo/test-polymorphic.s
+	@echo ... Zoo/Aigle.obj
+	@echo ... Zoo/Aigle.i
+	@echo ... Zoo/Aigle.s
+	@echo ... Zoo/IAnimal.obj
+	@echo ... Zoo/IAnimal.i
+	@echo ... Zoo/IAnimal.s
+	@echo ... Zoo/Poule.obj
+	@echo ... Zoo/Poule.i
+	@echo ... Zoo/Poule.s
+	@echo ... Zoo/Tigre.obj
+	@echo ... Zoo/Tigre.i
+	@echo ... Zoo/Tigre.s
+	@echo ... Zoo/Zoo.obj
+	@echo ... Zoo/Zoo.i
+	@echo ... Zoo/Zoo.s
+	@echo ... Zoo/main.obj
+	@echo ... Zoo/main.i
+	@echo ... Zoo/main.s
 .PHONY : help
 
 
