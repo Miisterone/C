@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/miist/Documents/C/C++/Zoo/Aigle.h
+IAnimal.h
+C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
+
+C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
+
+C:/Users/miist/Documents/C/C++/Zoo/Poule.h
+IAnimal.h
+C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
+
+C:/Users/miist/Documents/C/C++/Zoo/Tigre.h
+IAnimal.h
+C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
+
+C:/Users/miist/Documents/C/C++/Zoo/main.cpp
+IAnimal.h
+C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
+Aigle.h
+C:/Users/miist/Documents/C/C++/Zoo/Aigle.h
+Poule.h
+C:/Users/miist/Documents/C/C++/Zoo/Poule.h
+Tigre.h
+C:/Users/miist/Documents/C/C++/Zoo/Tigre.h
+iostream
+-
+vector
+-
+
