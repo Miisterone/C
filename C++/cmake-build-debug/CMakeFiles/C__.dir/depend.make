@@ -23,6 +23,7 @@ CMakeFiles/C__.dir/Zoo/Tigre.cpp.obj: ../Zoo/Tigre.cpp
 CMakeFiles/C__.dir/Zoo/Tigre.cpp.obj: ../Zoo/Tigre.h
 
 CMakeFiles/C__.dir/Zoo/Zoo.cpp.obj: ../Zoo/Zoo.cpp
+CMakeFiles/C__.dir/Zoo/Zoo.cpp.obj: ../Zoo/Zoo.h
 
 CMakeFiles/C__.dir/Zoo/main.cpp.obj: ../Zoo/Aigle.h
 CMakeFiles/C__.dir/Zoo/main.cpp.obj: ../Zoo/IAnimal.h
