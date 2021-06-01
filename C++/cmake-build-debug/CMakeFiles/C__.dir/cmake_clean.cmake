@@ -6,7 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/C__.dir/Zoo/Poule.cpp.obj"
   "CMakeFiles/C__.dir/Zoo/Tigre.cpp.obj"
   "CMakeFiles/C__.dir/Zoo/Zoo.cpp.obj"
-  "CMakeFiles/C__.dir/Zoo/main.cpp.obj"
   "C__.exe"
   "C__.exe.manifest"
   "C__.pdb"

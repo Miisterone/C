@@ -5,6 +5,7 @@
 class Tigre : public IAnimal
 {
 public:
-    virtual  void show();
+    virtual void show();
+    virtual string type();
 };
 #endif //C___TIGRE_H

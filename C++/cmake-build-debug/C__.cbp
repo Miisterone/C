@@ -122,9 +122,6 @@
 		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/Zoo.h">
 			<Option target="C__"/>
 		</Unit>
-		<Unit filename="C:/Users/miist/Documents/C/C++/Zoo/main.cpp">
-			<Option target="C__"/>
-		</Unit>
 		<Unit filename="C:/Users/miist/Documents/C/C++/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

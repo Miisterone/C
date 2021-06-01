@@ -1,14 +1,10 @@
 #ifndef C___ZOO_H
 #define C___ZOO_H
 
-class IAnimal
+class Zoo
 {
-    static int count;
 public:
-    IAnimal();
-    virtual ~IAnimal();
-    void virtual show() = 0;
-    static int getCount();
+   void feu(char feu);
 };
 
-#endif //C___ZOO_H
+#endif

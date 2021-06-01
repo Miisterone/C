@@ -6,22 +6,36 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/miist/Documents/C/C++/Zoo/Aigle.cpp
-iostream
--
-Aigle.h
-C:/Users/miist/Documents/C/C++/Zoo/Aigle.h
-
 C:/Users/miist/Documents/C/C++/Zoo/Aigle.h
 IAnimal.h
 C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
 
 C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
+iostream
+-
+
+C:/Users/miist/Documents/C/C++/Zoo/Poule.h
+IAnimal.h
+C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
+
+C:/Users/miist/Documents/C/C++/Zoo/Tigre.h
+IAnimal.h
+C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
 
 C:/Users/miist/Documents/C/C++/Zoo/Zoo.cpp
+IAnimal.h
+C:/Users/miist/Documents/C/C++/Zoo/IAnimal.h
+Aigle.h
+C:/Users/miist/Documents/C/C++/Zoo/Aigle.h
+Poule.h
+C:/Users/miist/Documents/C/C++/Zoo/Poule.h
+Tigre.h
+C:/Users/miist/Documents/C/C++/Zoo/Tigre.h
 Zoo.h
 C:/Users/miist/Documents/C/C++/Zoo/Zoo.h
 iostream
+-
+vector
 -
 
 C:/Users/miist/Documents/C/C++/Zoo/Zoo.h

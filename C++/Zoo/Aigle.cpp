@@ -5,3 +5,7 @@ using namespace std;
 void Aigle::show() {
     cout << "Les aigles s'enfuient" << endl;
 }
+
+string Aigle::type() {
+    return "Aigle" ;
+}

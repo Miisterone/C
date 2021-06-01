@@ -330,33 +330,6 @@ Zoo/Zoo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/Zoo.cpp.s
 .PHONY : Zoo/Zoo.cpp.s
 
-Zoo/main.obj: Zoo/main.cpp.obj
-
-.PHONY : Zoo/main.obj
-
-# target to build an object file
-Zoo/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/main.cpp.obj
-.PHONY : Zoo/main.cpp.obj
-
-Zoo/main.i: Zoo/main.cpp.i
-
-.PHONY : Zoo/main.i
-
-# target to preprocess a source file
-Zoo/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/main.cpp.i
-.PHONY : Zoo/main.cpp.i
-
-Zoo/main.s: Zoo/main.cpp.s
-
-.PHONY : Zoo/main.s
-
-# target to generate assembly for a file
-Zoo/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\C__.dir\build.make CMakeFiles/C__.dir/Zoo/main.cpp.s
-.PHONY : Zoo/main.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -387,9 +360,6 @@ help:
 	@echo ... Zoo/Zoo.obj
 	@echo ... Zoo/Zoo.i
 	@echo ... Zoo/Zoo.s
-	@echo ... Zoo/main.obj
-	@echo ... Zoo/main.i
-	@echo ... Zoo/main.s
 .PHONY : help
 
 

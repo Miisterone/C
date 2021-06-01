@@ -3,6 +3,7 @@
 
 using namespace std;
 int IAnimal::count = 0;
+string IAnimal::name;
 
 
 IAnimal::IAnimal() {
@@ -15,4 +16,8 @@ IAnimal::~IAnimal() {
 
 int IAnimal::getCount() {
     return count;
+}
+
+string IAnimal::type() {
+    return name;
 }
