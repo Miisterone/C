@@ -30,10 +30,10 @@ void testVehicles()
 }
 
 
-int main(){
-    cout << __FUNCTION__ << ":" <<  __LINE__ << " : " << "NB Vehicles: " <<IVehicle::getCount() << endl;
-    testVehicles();
-    cout << __FUNCTION__ << ":" << __LINE__ << " : " << "NB Vehicles: " <<IVehicle::getCount() << endl;
-    cout << "Bye!" << endl;
-    return 0;
-}
+//int main(){
+//    cout << __FUNCTION__ << ":" <<  __LINE__ << " : " << "NB Vehicles: " <<IVehicle::getCount() << endl;
+//    testVehicles();
+//    cout << __FUNCTION__ << ":" << __LINE__ << " : " << "NB Vehicles: " <<IVehicle::getCount() << endl;
+//    cout << "Bye!" << endl;
+//    return 0;
+//}
